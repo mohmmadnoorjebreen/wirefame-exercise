@@ -51,14 +51,14 @@ main img {
     width: 100%;
 }
 
-.main :nth-child(2){
+.n{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     
   }
 
-  main :nth-child(3){
+  main section:nth-child(3){
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
