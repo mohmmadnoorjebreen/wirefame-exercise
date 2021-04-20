@@ -3,6 +3,19 @@
     display: grid;
     grid-template-rows: 120px 1fr 100px;
   }
+  
+  body {
+    width: 980px;
+    margin: auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  background: #5b5b5b;
+ 
+}
 
 header img {
     margin-bottom: 20px;
@@ -10,13 +23,10 @@ header img {
     margin-left: 100px;
 
 }
-  header {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
-    background: #5b5b5b;
-   
-  }
+header nav {
+  text-align: center;
+  
+}
 
   header nav a {
     text-decoration: none;
@@ -26,21 +36,13 @@ header img {
     color: #dddddd;
   }
 
-  header nav {
-    text-align: center;
-    
-  }
+  
 
-  body {
-      width: 980px;
-      margin: auto;
-  }
+ 
 
-
-footer{
-    background-color: #5b5b5b;
-    height: 100px;
-    margin-top: 30px;
+  div {
+    width: 780px;
+    margin: auto;
 }
 
 main img {
@@ -49,7 +51,7 @@ main img {
     width: 100%;
 }
 
-.n{
+.main :nth-child(2){
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -64,12 +66,8 @@ main img {
     
   } 
 
-  
 
-  div {
-      width: 780px;
-      margin: auto;
-  }
+ 
   p{
       overflow: scroll;
       font-size: 10mm;
@@ -85,4 +83,8 @@ main img {
       border-radius: 5px;
   }
 
-  
+  footer{
+    background-color: #5b5b5b;
+    height: 100px;
+    margin-top: 30px;
+}
